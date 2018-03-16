@@ -2045,7 +2045,7 @@ left: 13px;
 }
 
 .fondoo {
-    height: 450px;
+    height: 450px !important;
     }
 .fill-parent{
     height: 450px;
