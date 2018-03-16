@@ -2044,8 +2044,11 @@ left: 13px;
     padding-right: 17px;
 }
 
+.fondoo {
+    height: 450px !important;
+    }
 .fill-parent{
-   /* height: 125%;*/
+    height: 450px;
     object-fit: cover;
 
 }
