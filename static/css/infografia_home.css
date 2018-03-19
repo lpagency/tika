@@ -152,7 +152,7 @@ img.fo{
 */
 
 img.info{
-    left: -24px;
+    left: -31px;
     position: relative;
     width: 118%;
 }
@@ -161,7 +161,7 @@ img.fo{
     left: -24px;
     top: 8px;
     position: relative;
-    width: 118%;
+    width: 138% !important;
 }
 
 
