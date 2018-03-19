@@ -72,13 +72,44 @@
 
 </script>
 
+<script type="text/javascript"> 
+    $(document).ready(function()
+    {
+        $(document).on("click", ".anchorLink", function(e) {
+            e.preventDefault();
+
+            elementClick = $(this).attr("href");
+            console.log(elementClick);
+            destination = $(elementClick).offset().top;
+            console.log(destination);
+            $("html:not(:animated),body:not(:animated)").animate({
+                scrollTop: destination
+            },800);
+            return false;
+        });
+    });
+</script>
+
 <script type="text/template" id="product_detail">
 
     <div class="width-banner" >
         <img id="{{ site.name }}_banner_detalle-prod" src="{{! images[4]['thumb_1'] }}" onload="this.onload='';this.src='{{! images[4]['thumb_500'] }}'" class="fondo-banner" alt="item" style="position:relative;">
     </div>
 
-    <section class="buy-bg space50" style="color:#fff;">
+     <div class="col-md-12">
+   <div align="center">
+     <a href="#first-page-scroll" class="anchorLink">
+       <div class="contenedor-circulo">
+         <div  class="circulo-bajada" >
+          <i class="fa fa-chevron-circle-down"  aria-hidden="true"></i> 
+        </div>
+
+      </div>
+    </a>
+  </div>
+</div>
+
+    <section id="first-page-scroll" class="buy-bg space50" style="color:#fff;">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">

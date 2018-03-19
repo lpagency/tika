@@ -29,6 +29,28 @@ body{
     left: -111px;
 }
 
+.circulo-bajada {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 50%;
+    z-index: 10;
+    padding: 5px;
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+}
+
+.fa-chevron-circle-down {
+    font-size: 48px !important;
+    color: #6E6E6E;
+    position: relative;
+    bottom: -2px;
+}
 
 .bottom {
     position: absolute;
@@ -747,7 +769,7 @@ span.product{
    object-fit: cover; 
    background-position: 0px ;
    width: 123%;
-   height: 508px;
+   height: 650px;
    overflow: hidden;
    position: absolute;
    left: -90px;
