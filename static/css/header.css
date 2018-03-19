@@ -312,33 +312,33 @@ img.tikaa{
 .papita{
         margin-left: 13px;
         position: relative;
-        top: 128px;
+        top: 223px;
 
     }
 
 .art{
     margin-left: 52px;
     position: relative;
-    top: 130px;
+    top: 223px;
    }
    
 .papitaa{
-    margin-top: -549px;
+    margin-top: -340px;
     margin-left: 12px;
    }
    
 .artt{
-    margin-top: -295px;
+    margin-top: -192px;
     margin-left: 51px;
    }
 
 .papitaaa{
-    margin-top: -521px;
+    margin-top: -284px;
     margin-left:12px;
    }
 
 .arttt{
-    margin-top: -280px;
+    margin-top: -163px;
     margin-left: 50px;
    }
 
@@ -416,6 +416,10 @@ img.tikaa{
 .natural{
     font-size: 33px;
     left: -2px;
+    top: 130px;
+    height: 133px;
+    overflow: hidden;
+    margin-top: -462px;
     margin-top: -462px;
     min-width: 329px;
     text-align: left;
