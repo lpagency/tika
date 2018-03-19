@@ -1197,7 +1197,7 @@ span.product{
     display: table;
     position: relative;
     margin-top: 20px;
-    object-fit: cover;
+    object-fit: contain;
     float: left;
 }
 
