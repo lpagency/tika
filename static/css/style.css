@@ -1804,7 +1804,9 @@ span.product{
 }
 
 .fondo-banner{
-    width: 127%;
+    width: 133%;
+    object-fit: contain;
+    height: inherit;
 }
 
 /*tabla nutricional*/
