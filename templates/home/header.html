@@ -1,7 +1,7 @@
 
 <!-- <header  class="fixtop" data-spy="affix" data-offset-top="400"> -->
    <div class="top_wrapper">
-      <div class="fondoo" style="background:url('{{ read_image(site.name + '_header_fondo',500) }}'); background-size:cover; height: 732px; filter: grayscale(0%) brightness(90%); -webkit-filter: grayscale(0%) brightness(90%); -moz-filter: grayscale(0%) brightness(90%); -ms-filter: grayscale(0%) brightness(90%);-o-filter: grayscale(0%) brightness(90%); background-position:center;" data-img-width="1600" data-img-height="1064" data-diff="100">
+      <div class="fondoo" data-img-width="1600" data-img-height="1064" data-diff="100">
           {% if is_admin %}
           <div class="image-upload lapiz visible-movil">
              <label for="img_header_fondo">
@@ -11,7 +11,7 @@
          </div>
          {% end %}
 
-        <img id="{{ site.name }}_header_fondo" src="{{ read_image(site.name + '_header_fondo', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_header_fondo',500) }}'" class="hidden absolute fill-parent" alt="item">
+        <img id="{{ site.name }}_header_fondo" src="{{ read_image(site.name + '_header_fondo', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_header_fondo') }}'" class="hidden absolute fill-parent" alt="item">
 
          <!--  <img src="https://84static.loadingplay.com/static/images/4aa0bd5dbaf66d66fe3b636bfbbc7eae_banner.png" class="absolute fill-parent" /> -->
          <div class="head-container">
