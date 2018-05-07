@@ -14,8 +14,8 @@
 
 {% block javascript %}
 <script src="https://maps.googleapis.com/maps/api/js"></script>
-<script type="text/javascript" src="{{ site_base }}/static/js/tag_group_home.js" async="async"></script>
-<script type="text/javascript" src="{{ site_base }}/static/js/map_store.js" async="async"></script>
+<script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/tag_group_home.js" async="async"></script>
+<script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/map_store.js" async="async"></script>
 
 {% end %}
 
@@ -33,7 +33,7 @@
                 <!-- <p><span class="" ></span></p> -->
             </div>
         </div>
-    </div>   
+    </div>
 
    <div class="container">
         <div class="col-md-12 col-sm-12 col-xs-12 dis">
@@ -50,7 +50,7 @@
                 <div class="arttt {{editabletext}}" text-id="{{ site.name + '_chico_3' }}">{{ read_text(site.name +  '_chico_3') }}</div>
             </div>
         </div>
-    </div>  
+    </div>
 
 <div class="background-color">
 
@@ -84,12 +84,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 fondos-tika">
-            <div class="col-md-6 col-xs-12 "> 
-                <div class="grafia  {{editabletext}}" text-id="{{ site.name + '_titulo_2' }}">{{ read_text(site.name +  '_titulo_2') }} </div> 
-                <div class="cont {{editabletext}}" text-id="{{ site.name + '_info_1' }}" > {{ read_text(site.name +  '_info_1') }} </div> 
+            <div class="col-md-6 col-xs-12 ">
+                <div class="grafia  {{editabletext}}" text-id="{{ site.name + '_titulo_2' }}">{{ read_text(site.name +  '_titulo_2') }} </div>
+                <div class="cont {{editabletext}}" text-id="{{ site.name + '_info_1' }}" > {{ read_text(site.name +  '_info_1') }} </div>
                 <div class="cont {{editabletext}}" text-id="{{ site.name + '_info_2' }}"> {{ read_text(site.name +  '_info_2') }}</div>
-            </div>  
-            <div class="col-md-6 col-xs-12 img-info-tika img-gluten" style="background:url('{{ read_image(site.name + '_home_info') }}'); background-size:cover; height: 454px;margin-top: -1px; filter: grayscale(0%) brightness(90%); -webkit-filter: grayscale(0%) brightness(90%); -moz-filter: grayscale(0%) brightness(90%); -ms-filter: grayscale(0%) brightness(90%);-o-filter: grayscale(0%) brightness(90%); background-position:center;" data-img-width="1600" data-img-height="1064" data-diff="100"> 
+            </div>
+            <div class="col-md-6 col-xs-12 img-info-tika img-gluten" style="background:url('{{ read_image(site.name + '_home_info') }}'); background-size:cover; height: 454px;margin-top: -1px; filter: grayscale(0%) brightness(90%); -webkit-filter: grayscale(0%) brightness(90%); -moz-filter: grayscale(0%) brightness(90%); -ms-filter: grayscale(0%) brightness(90%);-o-filter: grayscale(0%) brightness(90%); background-position:center;" data-img-width="1600" data-img-height="1064" data-diff="100">
                 {% if is_admin %}
                 <div class="image-upload lapiz visible-movil">
                    <label for="img_home_info">
@@ -100,7 +100,7 @@
                {% end %}
                <!--<img id="{{ site.name }}_home_info" src="{{ read_image(site.name + '_home_info', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_home_info') }}'" class="info" alt="item" />-->
 
-            
+
 
                <!-- <img class="info" src="https://7static.loadingplay.com/static/images/102d3c2c9f85551425a3129ef8c95eed_Banner_nuestra_historia_1.png">  -->
            </div>
@@ -122,8 +122,8 @@
             <!--  <img class="info fo" src="https://7static.loadingplay.com/static/images/30dd9655e1f38ef95f90b30ef996ee91_bannervideo.png"> -->
             <!-- <img class="icon" src="https://84static.loadingplay.com/static/images/5979205750a3839671cd7c331c2fa889_icono_video.png"> -->
         </div>
-        <div class="col-md-6  col-xs-12 "> 
-            <div class="grafiaa  {{editabletext}}" text-id="{{ site.name + '_titulo_3' }}">{{ read_text(site.name +  '_titulo_3') }} </div> 
+        <div class="col-md-6  col-xs-12 ">
+            <div class="grafiaa  {{editabletext}}" text-id="{{ site.name + '_titulo_3' }}">{{ read_text(site.name +  '_titulo_3') }} </div>
             <div class="contt {{editabletext}}" text-id="{{ site.name + '_info_33a' }}"> {{ read_text(site.name +  '_info_33a') }}</div>
 
         </div>
@@ -183,7 +183,7 @@
            </div>
            <div class="clearfix" ></div>
        </div>
-       
+
        <div class="container">
        <div class="col-md-4 col-sm-12 col-xs-12 image-redes-sociales text-center" >
          {% if is_admin %}
@@ -293,7 +293,7 @@
                <a href="{{ site_base }}/contact3" class="btn mas btn-lg active actiii" role="button">CONOCE MÁS</a>
            </div>
            </div>
-           
+
            <div align="center">
            <div class="col-md-4 col-xs-12 contact-box">
             {% if is_admin %}
@@ -311,7 +311,7 @@
             <div class="clearfix"></div>
         </div>
         </div>
-    
+
     </div>
 </div>
 </div>
@@ -319,7 +319,7 @@
 
 <!-- </html> -->
 <!-- <div class="space148">
--->    
+-->
 
 {% include '../home/footer.html' %}
 </div>
