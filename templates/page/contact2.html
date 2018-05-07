@@ -42,7 +42,7 @@
                 var asunto = $("#itComentario").val();
 
                 var error_count = 0;
- 
+
                 // --- Condicionales anidados ----
                 //Si nombre está vacío
                 //Muestra el mensaje
@@ -88,14 +88,14 @@
                 {
                     return false;
                 }
- 
+
             });//click
         });//ready
 </script>
 {% end %}
 
 {% block css %}
-<link type="text/css" rel='stylesheet' href="{{ site_base }}/static/css/page.edit.css" />
+<link type="text/css" rel='stylesheet' href="{{ site_base }}/{{ nocache_static }}/css/page.edit.css" />
 <style type="text/css">
     .controls input, .controls textarea
     {
@@ -126,7 +126,7 @@
         {% end %}
     	<img id="{{ site.name }}_banner_contact2" src="{{ read_image(site.name + '_banner_contact2', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_banner_contact2') }}'" class="fondo-form" alt="item">
     <!-- fin editar imagen -->
-    
+
 	 <div class="container" >
        <div class="row">
        		<div class="col-sm-12">
@@ -136,7 +136,7 @@
                 {% else %}
                 <h3 class="description distrib contact" style="text-align:center;"> {{ read_text(site.name + '_texto-contact2') }} </h3>
                 {% end %}
-	            <!-- <p class="description descrip-Form" style="text-align:center;font-style:italic" > 
+	            <!-- <p class="description descrip-Form" style="text-align:center;font-style:italic" >
 	            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -146,7 +146,7 @@
                 {% else %}
                 <p class="description descrip-Form contact" style="text-align:center;font-style:italic"> {{ read_text(site.name + '_texto-descrip2') }} </p>
                 {% end %}
-	           
+
 	            <!-- <div class="">Descargar Brochure</div> -->
 	            <!-- <button type="button" class="btn btn-default btn-lg disabled download center-block" style="text-align:center;">Descargar Brochure</button> -->
        		</div>
@@ -177,9 +177,9 @@
 					</div>
 				</div>
 			</div> -->
-			
+
 			<div class="container-fluid contact product text-left container-fluid-magle" style="display: inherit;">
-				<div class="row">		
+				<div class="row">
 					<!-- <div class="col-xs-12 col-sm-4">
 						<address>
 							<br>
@@ -277,15 +277,15 @@
 
 							<p><button name="submit" id="bEnviar" type="submit" class="btn btn-store btn-block " data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Email Sent">Enviar </button></p>
 							<input type="hidden" name="submitted" id="submitted3" value="true">
-						</form>	
-					    </div>		
-				
+						</form>
+					    </div>
+
 				    </div>
 
                 </div>
                 </div>
-            </div>	
+            </div>
 	</div>
 {% include '../home/footer.html' %}
-			
+
 {% end %}

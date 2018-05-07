@@ -20,7 +20,7 @@
 {% end %}
 
 {% block javascript %}
- <script type="text/javascript" src="{{ site_base }}/static/js/importer_list.js"></script>
+ <script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/importer_list.js"></script>
  <script type="text/javascript">
 
  var stores=[];
@@ -38,7 +38,7 @@ function isDevelopment() {
 }
 
 // configure for each enviroment
-if ( isLocalHost() ) 
+if ( isLocalHost() )
 {
     base_url = 'https://apibodegas.loadingplay.com/';
     checkout_url = 'https://pay.loadingplay.com/';
@@ -46,8 +46,8 @@ if ( isLocalHost() )
     // base_url = 'http://localhost:8520/';
     // checkout_url = 'http://localhost:8522/';
     // app_public= 13;
-} 
-else if ( isDevelopment() ) 
+}
+else if ( isDevelopment() )
 {
     base_url = 'https://apibodegas.loadingplay.com/';
     checkout_url = 'https://pay.loadingplay.com/';
@@ -149,7 +149,7 @@ else if ( isDevelopment() )
             </tr>
         </thead>
         <tbody  id="where-to-buy">
-            
+
         </tbody>
     </table>
 </section> -->
