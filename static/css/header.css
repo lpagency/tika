@@ -12,6 +12,7 @@ body
 
 .fondoo
 {
+    margin-top: -60px;
     background-size:cover !important;
     height: 732px;
     filter: grayscale(0%) brightness(90%);
