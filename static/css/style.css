@@ -2047,8 +2047,7 @@ table#stores.dataTable.no-footer
     .fondo-banner
     {
         width: 133%;
-        object-fit: contain;
-        height: inherit;
+        object-fit: cover;
     }
 
     .img-modal
@@ -2176,9 +2175,8 @@ table#stores.dataTable.no-footer
 
     .pro-rec
     {
-        margin-top: 211px;
+        margin-top: 133px;
         position: relative;
-        top: 60px;
     }
 
     .distrib
