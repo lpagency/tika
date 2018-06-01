@@ -20,6 +20,11 @@ body
     position: absolute;
 }
 
+.text-align
+{
+    text-align: center;
+}
+
 .fill-parent
 {
     width: 100%;
