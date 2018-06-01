@@ -2048,6 +2048,7 @@ table#stores.dataTable.no-footer
     {
         width: 133%;
         object-fit: cover;
+        height: 445px;
     }
 
     .img-modal
