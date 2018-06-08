@@ -25,6 +25,13 @@ body
     text-align: center;
 }
 
+.title-product
+{
+    text-align: center;
+    font-size: 50px;
+    color: #bcbcbc;
+}
+
 .fill-parent
 {
     width: 100%;
