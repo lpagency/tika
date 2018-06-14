@@ -1565,7 +1565,14 @@ table#stores.dataTable.no-footer
     color: #656667;
 }
 
-#stores_filter {
+.product-detail
+{
+    position: relative;
+    top: -180px;
+}
+
+#stores_filter
+{
     color: #656667;
 }
 
