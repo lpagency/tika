@@ -2211,7 +2211,6 @@ table#stores.dataTable.no-footer
         font-size: 18px;
         padding: 3px;
         position: relative;
-        top: 50px;
         width: 100%;
         text-align: center;
     }
@@ -2452,7 +2451,7 @@ table#stores.dataTable.no-footer
 
     .banner-container
     {
-        height: 500px;
+        height: 540px;
     }
 
     .banner-image
