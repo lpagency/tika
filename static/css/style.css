@@ -956,6 +956,36 @@ span.product
     display: table;
 }
 
+.banner-container
+{
+    width: 100%;
+    height: 880px;
+    position: relative;
+}
+
+.banner-image
+{
+    width: 100%;
+    height: 944px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.banner-editable
+{
+    position: relative !important;
+    right: 0px !important;
+}
+
+.editable-text-container
+{
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+}
+
 .fondo-banner
 {
     background-repeat: no-repeat;
@@ -2426,6 +2456,16 @@ table#stores.dataTable.no-footer
     {
         width: 100%;
     }
+
+    .banner-container
+    {
+        height: 500px;
+    }
+
+    .banner-image
+    {
+        height: 600px;
+    }
 }
 
 @media screen and (max-width:414px)
@@ -2589,7 +2629,6 @@ table#stores.dataTable.no-footer
 
 @media screen and (max-width:400px)
 {
-
     .redes
     {
         position: relative;
@@ -2655,6 +2694,7 @@ table#stores.dataTable.no-footer
     }
 }
 
+/* USELESS SINCE VIEWPORT IS HARDCODED TO 430px */
 @media screen and (max-width:320px)
 {
 
@@ -2784,4 +2824,5 @@ table#stores.dataTable.no-footer
         font-size: 11px;
         margin-top: -100px;
     }
+
 }
