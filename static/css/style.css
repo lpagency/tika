@@ -890,14 +890,6 @@ span.product
     font-weight: 700;
 }
 
-.description
-{
-    color: white;
-    width: 57%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 24px;
-}
 
 .tiki
 {
@@ -1021,6 +1013,7 @@ span.product
     font-size: 24px;
     line-height: 1.2;
     -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
 }
 
 .img-recipe
@@ -2220,7 +2213,7 @@ table#stores.dataTable.no-footer
         position: relative;
         top: 50px;
         width: 100%;
-        text-align: justify;
+        text-align: center;
     }
 
     .contact
