@@ -31,7 +31,7 @@ $(document).ready(function()
         "https://apibodegas.loadingplay.com/",
         "https://apibodegas.loadingplay.com/"
     );
-    var app_public = $.environmentVar(9,9,9);
+    var app_public = $.environmentVar('tika','tika','tika');
 
     // listado productos
     var config = {
