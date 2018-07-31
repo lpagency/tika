@@ -14,7 +14,7 @@ $(document).ready(function()
         "https://apibodegas.loadingplay.com/",
         "https://apibodegas.loadingplay.com/"
     );
-    var app_public = $.environmentVar(9,9,9);
+    var app_public = $.environmentVar('tika','tika','tika');
 
     var config = {
         'app_public' : app_public,
@@ -54,7 +54,7 @@ $(document).ready(function()
     // tika pop
     config.tag = 'Tika%20pop';
     $('.tika-pop').ecommerce('product_box', config);
-    
+
     // tika nativas
     config.tag = 'tika%20nativas';
     $('.tika-nativas').ecommerce('product_box', config);
